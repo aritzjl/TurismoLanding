@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Turismix</title>
+</head>
+
+<body class="w-screen h-screen m-0 p-0 overflow-x-hidden">
+    <header
+        class="sm:pl-6 py-2 w-full h-30 sm:h-16 drop-shadow-lg bg-white flex flex-col items-center sm:flex-row sm:space-between pt-2 sticky top-0">
+        <div class="sm:ml-2">
+            <img src="./img/logo.svg" alt="" class="w-10">
+        </div>
+
+        <div id="burger" class="flex flex-col items-center h-8 sm:hidden w-full mt-6">
+            <img src="./img/plane.svg" alt="" class="w-8">
+        </div>
+
+        <nav id="nav" class="ml-2 hidden sm:block">
+            <ul class="flex flex-col items-center sm:flex-row">
+                <a href="#Inicio">
+                    <li class="inline-block font-bold p-2 hover:bg-gray-200">Inicio</li>
+                </a>
+                <a href="#Servicios">
+                    <li class="inline-block font-bold p-2 hover:bg-gray-200">Servicios</li>
+                </a>
+                <a href="#Reconocimientos">
+                    <li class="inline-block font-bold p-2 hover:bg-gray-200">Reconocimientos</li>
+                </a>
+                <a href="#Valoraciones">
+                    <li class="inline-block font-bold p-2 hover:bg-gray-200">Valoraciones</li>
+                </a>
+                <a href="#Contacto">
+                    <li class="inline-block font-bold p-2 hover:bg-gray-200">Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="w-screen h-96 m-0 p-0 flex flex-col justify-start items-center">
+        <section id="Inicio" class="bg-white mb-32">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h1
+                        class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none sm:text-5xl xl:text-6xl text-center sm:text-left">
+                        TU AGENCIA DE VIAJES A MEDIDA</h1>
+                    <p class="max-w-2xl mb-6 font-light text-rose-400 lg:mb-8 sm:text-lg lg:text-xl text-center sm:text-left">Viajes Turixmix
+                        nace en 1986 con una vocación clara orientada al servicio y el propósito de ofrecer un trato
+                        profesional y de confianza, ayudando tanto a empresas en sus viajes de incentivos y de empresa,
+                        como a viajeros en busca de viajes a medida.</p>
+                </div>
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src="./img/mundo.svg" alt="mockup">
+                </div>
+            </div>
+        </section>
+        <h1 id="Servicios" class="text-5xl font-extrabold text-rose-400 mt-6 mb-16 text-center">Nuestros Servicios</h1>
+        <section
+            class="w-screen bg-white flex flex-col items-center sm:flex-row sm:justify-center space-y-8 sm:space-x-16 sm:space-y-0 mb-32">
+
+            <article
+                class="h-96 w-auto flex flex-col space-between items-center justify-center border-2 rounded-lg border-rose-400">
+                <h1 class="text-rose-400 text-3xl font-extrabold">
+                    VACACIONAL
+                </h1>
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/10/viajes-bilbao-express-vacacional.png"
+                    alt="">
+            </article>
+            <article
+                class="h-96 w-auto flex flex-col space-between items-center justify-center border-2 rounded-lg border-rose-400">
+                <h1 class="text-rose-400 text-3xl font-extrabold">
+                    MICE
+                </h1>
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/10/viajes-bilbao-express-mice.png"
+                    alt="">
+            </article>
+            <article
+                class="h-96 w-auto flex flex-col space-between items-center justify-center border-2 rounded-lg border-rose-400">
+                <h1 class="text-rose-400 text-3xl font-extrabold">
+                    CORPORATIVO
+                </h1>
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/10/viajes-bilbao-express-corporativo.png"
+                    alt="">
+            </article>
+        </section>
+
+        <section id="Reconocimientos" class="w-full flex flex-col space-y-10 bg-rose-400 mt-16 items-center p-2 mb-48">
+            <h1 class=" text-2xl sm:text-5xl font-extrabold text-white mt-6 text-center">
+                RECONOCIMIENTOS A TURISMIX
+            </h1>
+            <div class="w-16 h-4 bg-white text-white">-</div>
+            <article class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/10/logo-traveladvisors.png"
+                    alt="">
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/11/iberia-viajes-bilbao-express.png"
+                    alt="">
+                <img src="https://www.viajesbilbaoexpress.com/wp-content/uploads/2019/10/logo-bodas-net.png" alt="">
+            </article>
+        </section>
+
+        <section id="Valoraciones" class="w-full flex flex-col space-y-16 items-center">
+            <h1 class="text-5xl font-extrabold text-rose-400 mt-6 text-center">VALORACIONES DE NUESTROS CLIENTES</h1>
+            <div
+                class="w-full overflow-x-auto flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 items-center sm:justify-center flex-nowrap md-16">
+                <article
+                    class="w-80 sm:w-96 h-96 bg-white flex flex-col items-center justify-center px-4 rounded-lg overflow-y-auto border-rose-400 border-2 justify-start">
+                    <img src="./img/logo.svg" alt="" class="w-16 mb-2">
+                    <p class="text-center">"La atención recibida por parte de Turismix ha sido excelente. Nos han
+                        ayudado en todo momento y han sido muy amables. Sin duda, repetiremos."</p>
+                </article>
+                <article
+                    class="w-80 sm:w-96 h-96 bg-white flex flex-col items-center justify-center px-4 rounded-lg overflow-y-auto border-rose-400 border-2 justify-start">
+                    <img src="./img/logo.svg" alt="" class="w-16 mb-2">
+                    <p class="text-center">"Excelente servicio, ya he viajado con Turismix en más de 5 ocasiones, nunca
+                        me han defraudado."</p>
+                </article>
+                <article
+                    class="w-80 sm:w-96 h-96 bg-white flex flex-col items-center justify-center px-4 rounded-lg overflow-y-auto border-rose-400 border-2 justify-start">
+                    <img src="./img/logo.svg" alt="" class="w-16 mb-2">
+                    <p class="text-center">"Un placer ser cliente de esta compañia. Turismix me da la seguridad y el
+                        comfort que necesito en mis viajes."</p>
+                </article>
+            </div>
+        </section>
+
+        <section id='Contacto' class="w-full flex flex-col items-center p-4">
+            <form action="">
+                <h1 class="text-5xl font-extrabold text-rose-400 mt-6 text-center">¿Quieres recibir nuestras ofertas?</h1>
+                <div
+                    class="w-full flex flex-col sm:flex-row items-center justify-center space-y-16 sm:space-y-0 sm:space-x-8 mt-16">
+                    <input type="email" name="email" id="email"
+                        class="w-80 sm:w-96 h-12 border-2 border-rose-400 rounded-lg p-2"
+                        placeholder="Introduce tu email">
+                    <button class="w-80 sm:w-96 h-12 bg-rose-400 text-white font-bold rounded-lg">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section class="w-full flex flex-col items-center p-4">
+            <form action="" class="flex flex-col items-center">
+                <h1 class="text-5xl font-extrabold text-rose-400 mt-6 ">Contáctanos</h1>
+                <div class="w-full flex flex-col items-center justify-center space-y-6  mt-16">
+                    <input type="text" name="name" id="name"
+                        class="w-80 sm:w-96 h-12 border-2 border-rose-400 rounded-lg p-2" placeholder="Nombre">
+                    <input type="email" name="email" id="email"
+                        class="w-80 sm:w-96 h-12 border-2 border-rose-400 rounded-lg p-2" placeholder="Email">
+                    <textarea name="message" id="message"
+                        class="w-80 sm:w-96 h-32 border-2 border-rose-400 rounded-lg p-2"
+                        placeholder="Mensaje"></textarea>
+                    <button class="w-80 sm:w-96 h-12 bg-rose-400 text-white font-bold rounded-lg">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="w-full mt-16">
+            <div class="w-full h-16 bg-rose-400 flex items-center justify-center">
+                <p class="text-white">© 2021 Turismix. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
